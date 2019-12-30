@@ -1,0 +1,75 @@
+.List ul{
+    padding-top: 100px;
+    padding-left: 20px;
+    list-style: none;
+}
+.List ul li{
+    padding: 7px;
+    margin: 7px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.List ul li strong{
+    padding: 0 3px 0 7px;
+}
+.List ul li button{
+    float: right;
+    border-radius: 2px;
+    background: none;
+    border: 1px solid rgb(149, 160, 172);
+}
+.done{
+    text-decoration: line-through;
+}
+.undone{
+    text-decoration: none;
+}
+.TDtrue{
+    color: rgb(185, 123, 7);
+}
+.TDfalse{
+    color: rgb(35, 197, 97);
+}
+
+.formToDo {
+ position: relative;
+ left:7px;
+}
+
+.formToDo input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(37, 126, 177);
+    background-color: rgb(154, 230, 243);
+}
+.formToDo button{
+    width: 60px;
+    height: 36px;
+    position: relative;
+    bottom:7px;
+    left: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid rgb(9, 143, 132);
+    background-color: rgb(76, 231, 89);
+}
+.but{
+    width: 22px;
+    height: 19px;
+    position: relative;
+    background-color: none;
+    margin-left: 3px;
+    color: rgb(236, 105, 29);
+    font-weight: bold;
+    font-size: 90%;
+}
+.inp{
+    background-color: rgb(29, 94, 105);
+    width: 400px;
+    border: 2px solid rgb(31, 113, 128);
+    padding: 4px;
+    font-size: 90%;
+    font-weight: 700;
+}
